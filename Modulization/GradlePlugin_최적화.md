@@ -1,6 +1,6 @@
 ## Build-Logic Gradle Plugin 최적화
 
-### **Solution**
+### **Before**
 - 다음과 같이 Custom Plugin을 등록할 때 플러그인을 등록하기 위한 코드가 반복된다 
 ````
 plugins {
@@ -72,7 +72,7 @@ gradlePlugin {
 
 ````
 
-### **Before**
+### **Solution**
 ```
 fun NamedDomainObjectContainer<PluginDeclaration>.pluginRegister(data: Pair<String, String>) {
     val (pluginName, className) = data
