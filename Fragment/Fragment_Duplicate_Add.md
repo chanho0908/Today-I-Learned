@@ -41,12 +41,15 @@ class SearchPlaceMainFragment : Fragment(R.layout.fragment_search_place_main) {
 
 ```
 
-### 💡원인 분석
+### 🤔 원인 분석
 ```
 android:name="kr.techit.lion.search.SearchListFragment"
 ```
 - ```FragmentContainerView```의 ```android:name``` 속성에 선언된 프래그먼트는 자동으로 추가된다.
 - 현재 ```add``` 메소드를 사용해 프래그먼트를 추가하므로 프래그먼트를 중복 추가한다.
+
+### 💡Solution
+```android:name="kr.techit.lion.search.SearchListFragment"``` 또는 ```add()```를 제거한다.
 
 ### Add 제거 결과
 ![image](https://github.com/user-attachments/assets/d393938c-ae2f-49fe-95d0-5dbc97a87b52)
