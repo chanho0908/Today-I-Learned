@@ -6,6 +6,8 @@
 <br/>
 
 - 기존 XML View System을 Compose로 부분적으로 마이그레이션 하기 위해 컴포즈에 대한 Convention Plugin 설정을 하던 중 다음 에러가 발생했다.
+- Plugins.ANDROID_COMPOSE 상수는 다음 코드다. ```org.jetbrains.kotlin.plugin.compose```
+
 ```
 An exception occurred applying plugin request [id: 'daongil.presentation', version: '1.0.0']
 > Failed to apply plugin 'daongil.android.compose'.
@@ -25,7 +27,9 @@ Please fix your configuration (or `suppressKotlinVersionCompatibilityCheck` but 
 - 현재 프로젝트의 Kotlin 버전은 1.9.22으로 2.0 이하이기 때문에 Gradle Plugin을 사용하는 방식은 사용 할 수 없다.
 - 대신 Compose Compiler 의존성을 추가하기 위해선 프로젝트에 Google Maven 저장소를 추가해야한다.
 - 공식문서를 참고해 현재 코틀린 버전에 맞는 컴파일러 버전을 확인하자.
-https://developer.android.com/jetpack/androidx/releases/compose-kotlin?hl=ko
+- https://developer.android.com/jetpack/androidx/releases/compose-kotlin?hl=ko
 
 - composeOptions Block 내에 kotlinExtensionVersion에서 compose를 사용하기 위한 컴파일러의 확장 버전을 지정한다.
+- compose-compiler Version은 VersionCatalog에 선언해주었다.
+- ```compose-compiler = "1.5.10"```
 <img width="857" alt="image" src="https://github.com/user-attachments/assets/8285fb5f-4e6e-4457-b976-9e69503c136c" />
