@@ -9,7 +9,7 @@
 ### Fragment
 | Title | Date | 
 | :------: | :---: |
-| [Fragmetn 중복 호출](https://github.com/chanho0908/Today-I-Learned/blob/main/Fragment/Fragment_Duplicate_Add.md) | 2025.01.17  | 
+| [Fragment 중복 호출](https://github.com/chanho0908/Today-I-Learned/blob/main/Fragment/Fragment_Duplicate_Add.md) | 2025.01.17  | 
 
 ### Gradle
 | Title | Date | 
