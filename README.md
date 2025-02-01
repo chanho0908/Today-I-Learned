@@ -31,3 +31,8 @@
 | Title | Date | 
 | :------: | :---: |
 | [KSP Build Trouble Shooting](https://github.com/chanho0908/Today-I-Learned/blob/main/ksp/Ksp_TroubleShooting.md) | 2025.01.08  | 
+
+<br/>
+<hr/>
+- 이 레포는 다음 레포에 영감을 받아 만들었습니다.<br/>
+- https://github.com/haeti-dev/Today-I-Learned
