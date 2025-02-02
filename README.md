@@ -26,7 +26,8 @@
 | :------: | :---: |
 | [Compose Build System Trouble Shooting](https://github.com/chanho0908/Today-I-Learned/blob/main/compose/ComposeBuild.md) | 2025.01.31  | 
 | [Compose Navigation popUpTo](https://github.com/chanho0908/Today-I-Learned/blob/main/compose/Navigation_%08popUpTo.md) | 2025.01.31  | 
-| [ExposedDropDown Mdenu](https://github.com/chanho0908/Today-I-Learned/blob/main/compose/ExposedDropdownMenu.md) | 2025.02.02  | 
+| [ExposedDropDown Menu](https://github.com/chanho0908/Today-I-Learned/blob/main/compose/ExposedDropdownMenu.md) | 2025.02.02  | 
+| [setTextAndPlaceCursorAtEnd](https://github.com/chanho0908/Today-I-Learned/blob/main/compose/setTextAndPlaceCursorAtEnd.md) | 2025.02.02  | 
 
 ### Ksp
 | Title | Date | 
