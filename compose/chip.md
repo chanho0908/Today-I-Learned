@@ -1,4 +1,4 @@
-## 🍀 Material3 Chp Custom하기
+## 🍀 Material3 Chip Custom하기
 <br/>
 
 ### 다음과 같이 선택 되었을 때 Border와 아이콘, 텍스트의 색상이 변경되는 Chip을 만들어보자
